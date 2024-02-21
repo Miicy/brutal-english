@@ -191,7 +191,7 @@ function MenuPageMobile() {
 						style={MenuPageMobileFilterContainer}
 						onClick={handleExpandFilterClick}
 					>
-						Filteri
+						Filters
 						{expandFilters ? (
 							<KeyboardArrowDownIcon />
 						) : (

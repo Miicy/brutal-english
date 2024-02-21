@@ -154,11 +154,11 @@ function HomePageContent() {
 							: null,
 					}}
 				>
-					Besplatna dostava za kupovinu preko 6000 €!
+					FREE SHIPPING ON ORDERS OVER 100€!
 				</p>
 			</div>
 			<div style={homePageTitleContainer}>
-				<div style={homePageTitle}>NOVO</div>
+				<div style={homePageTitle}>NEW</div>
 			</div>
 			<div style={homePageProductsContainer}>
 				<Products products={productsNew} isNewState={true} />
@@ -172,7 +172,7 @@ function HomePageContent() {
 						style={{ textAlign: "center", width: "100%" }}
 						className="hover-style"
 					>
-						Iskoristi promo kod i ostvari 10% popusta na narudžbinu.
+						USE THE PROMO CODE AND GET A 10% DISCOUNT ON YOUR ORDER.
 					</p>
 				</div>
 			</div>
