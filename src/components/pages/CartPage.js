@@ -124,7 +124,7 @@ function CartPage() {
 		flexDirection: "column",
 		justifyContent: "flex-start",
 		alignItems: "center",
-		height: isDesktop ? "100vh" : "130vh",
+		height: isDesktop ? "100vh" : "fit-content",
 		width: isDesktop ? "95%" : "100%",
 		paddingTop: "3px",
 		borderRadius: "5px",
@@ -448,7 +448,7 @@ function CartPage() {
 												style={cartProductAddRemoveStyles}
 												className="hover-style"
 											>
-												<Tooltip title={"Dodaj"} placement="left">
+												<Tooltip title={"Add"} placement="left">
 													<AddOutlinedIcon
 													onClick={() =>
 														addToCartHandler({

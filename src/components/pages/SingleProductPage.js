@@ -212,7 +212,7 @@ function SingleProductPage() {
 			} else {
 				return (
 					<div style={wishlistContainer}>
-						<Tooltip title="Dodaj u omiljene" placement="bottom">
+						<Tooltip title="Add to wishlist" placement="bottom">
 							<FavoriteRoundedIcon
 								sx={{ fontSize: "2em" }}
 								onMouseEnter={handleMouseEnterWish}
@@ -300,7 +300,7 @@ function SingleProductPage() {
 	};
 
 	const SingleProductMainImageContainer = {
-		height: isDesktop ? "75%" : "85%",
+		height: isDesktop ? "75%" : "95%",
 		width: "95%",
 		backgroundColor: "white",
 		borderRadius: "5px",
@@ -365,7 +365,7 @@ function SingleProductPage() {
 		gridTemplateRows: "1fr",
 		gap: "0px 0px",
 		width: "100%",
-		margin: isMobile && "20px 0 40px 0",
+		margin: isMobile && "15px 0 15px 0",
 		height: isScreenSmallButtons
 			? "90%"
 			: isDesktop
@@ -398,6 +398,7 @@ function SingleProductPage() {
 		flexDirection: "column",
 		alignItems: "center",
 		justifyContent: isDesktop ? "flex-start" : "center",
+		marginBottom:"5px"
 	};
 	const SinglePageTastesContainer = {
 		width: "100%",
@@ -406,7 +407,7 @@ function SingleProductPage() {
 		alignItems: "center",
 		marginTop: flavors.length === 0 ? "5px" : "10px",
 		marginBottom: flavors.length === 0 ? "0px" : "10px",
-		height: flavors.length > 0 && isMobile && "200px",
+		height: flavors.length > 0 && isMobile && "90px",
 		zIndex: 5,
 	};
 
@@ -687,7 +688,7 @@ function SingleProductPage() {
 							height: isMobile ? "80px" : "125px",
 						}}
 					>
-						<Tooltip title={"Dodaj u korpu"} placement="bottom">
+						<Tooltip title={"Add to cart"} placement="bottom">
 							<div
 								style={productCartContainer}
 								onMouseEnter={handleMouseEnterCart}

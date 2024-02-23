@@ -1,4 +1,4 @@
-export const SERVER_URL ="https://brutal-server-b0ha.onrender.com/";
+export const SERVER_URL ="https://web-shop-a7e90893f970.herokuapp.com/";
 
 //  "http://localhost:8001/"
 

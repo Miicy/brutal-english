@@ -255,7 +255,7 @@ function ProductContainer({ isNew, onSale, price, title, image, product }) {
 			} else {
 				return (
 					<div style={wishlistContainer}>
-						<Tooltip title="Dodaj u omiljene" placement="bottom">
+						<Tooltip title="Add to wishlist" placement="bottom">
 							<FavoriteRoundedIcon
 								sx={{ fontSize: "2em" }}
 								onMouseEnter={handleMouseEnterWish}
@@ -331,7 +331,7 @@ function ProductContainer({ isNew, onSale, price, title, image, product }) {
 										color: "white",
 										fontWeight: "bold",
 										fontSize: "1.05em",
-										zIndex: 999,
+										zIndex: 10,
 										marginLeft: "10px",
 										display: "flex",
 									}}
@@ -386,7 +386,7 @@ function ProductContainer({ isNew, onSale, price, title, image, product }) {
 						{onSale && <div style={productDiscountContainer}>{price}</div>}
 					</div>
 
-					<Tooltip title={"Dodaj u korpu"} placement="bottom">
+					<Tooltip title={"Add to cart"} placement="bottom">
 						<div
 							style={productCartContainer}
 							onMouseEnter={handleMouseEnterCart}
